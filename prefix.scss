@@ -1,4 +1,4 @@
-@mixin prefix($property, $value, $prefixes) {
+@mixin fz-prefix($property, $value, $prefixes) {
   $property: unquote($property);
   $value: unquote($value);
   @each $prefix in $prefixes {
@@ -7,7 +7,7 @@
   #{$property}: $value;
 }
 
-@mixin prefix-value($property, $value, $prefixes) {
+@mixin fz-prefixValue($property, $value, $prefixes) {
   $property: unquote($property);
   $value: unquote($value);
   @each $prefix in $prefixes {

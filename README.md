@@ -5,14 +5,14 @@ Mixins to prefix properties and values.
 ## Installation
 
 ```
-fonzie install prefix
+bower install fonzie-prefix
 ```
 
 ## Usage
 
 ```scss
 .box {
-  @include prefix(border-radius, 5px, -webkit -moz -o);
-  @include prefix-value(display, flex, -webkit -moz);
+  @include fz-prefix(border-radius, 5px, -webkit -moz -o);
+  @include fz-prefixValue(display, flex, -webkit -moz);
 }
 ```
